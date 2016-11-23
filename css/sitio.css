@@ -5,14 +5,13 @@ body {
     background: linear-gradient(to bottom right, rgba(15,184,173,0.5), rgba(44,181,232,0.5));
 }
 p {
-    width: 550px;
-    margin: 15px auto;
+    margin: 15px 15px;
     text-align: center;
 }
 .even {
 	text-align: center;
 }
-table {
+table, p {
     width: 50%;
     margin-bottom: 22px;
     background: rgba(255,255,255,0.5);
