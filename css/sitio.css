@@ -1,8 +1,10 @@
-body {
-    background: -webkit-linear-gradient(left top, rgba(15,184,173,0.3), rgba(44,181,232,0.3));
-    background: -o-linear-gradient(bottom right, rgba(15,184,173,0.3), rgba(44,181,232,0.3));
-    background: -moz-linear-gradient(bottom right, rgba(15,184,173,0.3), rgba(44,181,232,0.3));
-    background: linear-gradient(to bottom right, rgba(15,184,173,0.3), rgba(44,181,232,0.3));
+.bgimg {
+    z-index: -1;
+    position: fixed;
+	filter: -ms-blur(6px);
+            filter: -moz-blur(6px);
+              filter: -webkit-blur(6px);
+                filter: blur(6px);
 }
 p {
     margin: 15px auto;
