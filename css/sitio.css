@@ -26,6 +26,7 @@ table, p, h1 {
     width: 50%;
     margin-bottom: 22px;
     background: rgba(255,255,255,0.7);
+    border-radius: 10px;
 }
 .confirmado {
 color: green;
@@ -42,11 +43,13 @@ color: purple;
   margin: 20px auto;
   position: relative;
   border: 5px white solid;
+  border-radius: 10px;
 }
 .slide1,.slide2,.slide3,.slide4,.slide5 {
   position: absolute;
   width: 100%;
   height: 100%;
+  border-radius: 10px;
 }
 .slide1 {
   background: url(http://i.imgur.com/5OlZUHy.jpg)no-repeat center;
