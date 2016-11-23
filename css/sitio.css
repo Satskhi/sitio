@@ -1,10 +1,12 @@
 .bgimg {
-    z-index: -1;
-    position: fixed;
-	filter: -ms-blur(6px);
-            filter: -moz-blur(6px);
-              filter: -webkit-blur(6px);
-                filter: blur(6px);
+z-index: -1;
+position: fixed;
+filter: -ms-blur(6px);
+filter: -moz-blur(6px);
+filter: -webkit-blur(6px);
+filter: blur(6px);
+margin: 0px;
+width: 100%	
 }
 p {
     margin: 15px auto;
