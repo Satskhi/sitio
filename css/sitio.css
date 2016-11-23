@@ -4,6 +4,23 @@ body {
     background: -moz-linear-gradient(bottom right, rgba(15,184,173,0.3), rgba(44,181,232,0.3));
     background: linear-gradient(to bottom right, rgba(15,184,173,0.3), rgba(44,181,232,0.3));
 }
+.content:before {
+  content: "";
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -1;
+
+  display: block;
+  background-image: url('http://i.imgur.com/5OlZUHy.jpg');
+  width: 100%;
+
+  -webkit-filter: blur(15px);
+  -moz-filter: blur(15px);
+  -o-filter: blur(15px);
+  -ms-filter: blur(15px);
+  filter: blur(15px);
+}
 p {
     margin: 15px auto;
     text-align: center;
