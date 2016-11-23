@@ -12,7 +12,7 @@ p {
 .even {
 	text-align: center;
 }
-.table {
+table {
     width: 50%;
     margin-bottom: 22px;
     background: rgba(255,255,255,0.5);
