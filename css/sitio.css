@@ -17,8 +17,14 @@ table, p {
     margin-bottom: 22px;
     background: rgba(255,255,255,0.5);
 }
+.confirmado {
+color: green;
+}
 .recusado {
 color: red;
+}
+.indeciso {
+color: yellow;
 }
 .slider {
   max-width: 620px;
