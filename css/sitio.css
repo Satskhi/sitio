@@ -10,6 +10,7 @@
   height: 305px;
   margin: 20px auto;
   position: relative;
+  border: 5px #d11111 solid;
 }
 .slide1,.slide2,.slide3,.slide4,.slide5 {
   position: absolute;
